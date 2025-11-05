@@ -1,0 +1,47 @@
+{
+  "club_name": "Calgary Badminton Group",
+  "currency": "CAD",
+  "updated_at": "2025-11-03T04:44:57.163069Z",
+  "monthly": [
+    {
+      "month": "2025-11",
+      "sessions": 3,
+      "people": 28,
+      "total_fee": 420,
+      "by_person": [
+        {
+          "name": "Ailin",
+          "sessions": 3,
+          "paid": 45
+        },
+        {
+          "name": "Rui",
+          "sessions": 2,
+          "paid": 30
+        },
+        {
+          "name": "Lillian",
+          "sessions": 2,
+          "paid": 30
+        }
+      ]
+    }
+  ],
+  "lifetime_by_person": [
+    {
+      "name": "Ailin",
+      "sessions": 12,
+      "paid": 180
+    },
+    {
+      "name": "Rui",
+      "sessions": 9,
+      "paid": 135
+    },
+    {
+      "name": "Lillian",
+      "sessions": 7,
+      "paid": 105
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>羽毛球月度汇总</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">羽毛球月度汇总</h1>
+    <p class="muted">GitHub Pages 静态站点 · 数据来源：<code>data/summary.json</code></p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>本月概览</h2>
+      <div id="this-month">加载中…</div>
+    </section>
+    <section class="card">
+      <h2>按月统计</h2>
+      <table id="tbl-months">
+        <thead><tr><th>月份</th><th>场次</th><th>人数</th><th>总额</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <section class="card">
+      <h2>个人累计（全部历史）</h2>
+      <div class="toolbar">
+        <input id="search" placeholder="搜索姓名…">
+        <button id="btn-reset">重置</button>
+      </div>
+      <table id="tbl-people">
+        <thead><tr><th>#</th><th>姓名</th><th>总场次</th><th>总金额</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <small>© <span id="year"></span> <span id="club"></span> · 数据更新时间：<span id="updated"></span></small>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
