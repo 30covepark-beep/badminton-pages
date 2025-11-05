@@ -1,47 +1,29 @@
 {
   "club_name": "Calgary Badminton Group",
   "currency": "CAD",
-  "updated_at": "2025-11-03T04:44:57.163069Z",
+  "updated_at": "2025-11-04T22:30:00Z",
   "monthly": [
     {
       "month": "2025-11",
       "sessions": 3,
-      "people": 28,
-      "total_fee": 420,
+      "people": 20,
+      "total_fee": 450,
       "by_person": [
-        {
-          "name": "Ailin",
-          "sessions": 3,
-          "paid": 45
-        },
-        {
-          "name": "Rui",
-          "sessions": 2,
-          "paid": 30
-        },
-        {
-          "name": "Lillian",
-          "sessions": 2,
-          "paid": 30
-        }
+        { "name": "Ailin", "sessions": 3, "paid": 45 },
+        { "name": "Rui", "sessions": 3, "paid": 45 },
+        { "name": "Lillian", "sessions": 2, "paid": 30 },
+        { "name": "Johnny", "sessions": 2, "paid": 30 },
+        { "name": "Kenneth", "sessions": 2, "paid": 30 },
+        { "name": "宁超", "sessions": 2, "paid": 30 }
       ]
     }
   ],
   "lifetime_by_person": [
-    {
-      "name": "Ailin",
-      "sessions": 12,
-      "paid": 180
-    },
-    {
-      "name": "Rui",
-      "sessions": 9,
-      "paid": 135
-    },
-    {
-      "name": "Lillian",
-      "sessions": 7,
-      "paid": 105
-    }
+    { "name": "Ailin", "sessions": 15, "paid": 225 },
+    { "name": "Rui", "sessions": 14, "paid": 210 },
+    { "name": "Lillian", "sessions": 10, "paid": 150 },
+    { "name": "Johnny", "sessions": 9, "paid": 135 },
+    { "name": "Kenneth", "sessions": 9, "paid": 135 },
+    { "name": "宁超", "sessions": 8, "paid": 120 }
   ]
 }
